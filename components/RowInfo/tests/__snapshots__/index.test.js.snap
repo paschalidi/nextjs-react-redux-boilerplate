@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Testing RowInfo 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RowInfo />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <style>
+          
+              .flex--center {
+                  flex: 1;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 100vw;
+                  padding: 2vw 0;
+                  border-bottom: 1px solid #f8f8f8;
+              }
+          
+        </style>,
+        <div
+          className="text--md"
+        >
+           Restaurants in total
+        </div>,
+      ],
+      "className": "background-color--white flex--center info",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "
+              .flex--center {
+                  flex: 1;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 100vw;
+                  padding: 2vw 0;
+                  border-bottom: 1px solid #f8f8f8;
+              }
+          ",
+        },
+        "ref": null,
+        "rendered": "
+              .flex--center {
+                  flex: 1;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 100vw;
+                  padding: 2vw 0;
+                  border-bottom: 1px solid #f8f8f8;
+              }
+          ",
+        "type": "style",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            undefined,
+            " Restaurants in total",
+          ],
+          "className": "text--md",
+        },
+        "ref": null,
+        "rendered": Array [
+          undefined,
+          " Restaurants in total",
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <style>
+            
+              .flex--center {
+                  flex: 1;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 100vw;
+                  padding: 2vw 0;
+                  border-bottom: 1px solid #f8f8f8;
+              }
+          
+          </style>,
+          <div
+            className="text--md"
+          >
+             Restaurants in total
+          </div>,
+        ],
+        "className": "background-color--white flex--center info",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "
+              .flex--center {
+                  flex: 1;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 100vw;
+                  padding: 2vw 0;
+                  border-bottom: 1px solid #f8f8f8;
+              }
+          ",
+          },
+          "ref": null,
+          "rendered": "
+              .flex--center {
+                  flex: 1;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  width: 100vw;
+                  padding: 2vw 0;
+                  border-bottom: 1px solid #f8f8f8;
+              }
+          ",
+          "type": "style",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              undefined,
+              " Restaurants in total",
+            ],
+            "className": "text--md",
+          },
+          "ref": null,
+          "rendered": Array [
+            undefined,
+            " Restaurants in total",
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
