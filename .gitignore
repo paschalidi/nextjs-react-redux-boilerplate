@@ -1,0 +1,21 @@
+# build output
+/client/static/dist
+
+/client/static/semantic/dist
+.next
+.idea
+.package-lock.json
+
+# dependencies
+node_modules
+
+# logs
+*.log
+
+# coverage
+.nyc_output
+coverage
+
+# test output
+test/**/out
+.DS_Store
