@@ -1,0 +1,1587 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Testing Restaurant 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Restaurant
+    categories={
+      Array [
+        "0",
+      ]
+    }
+    city="city"
+    id=""
+    logoUrl="http://via.placeholder.com/350x150"
+    name="name"
+    rating={5}
+    withOrderButton={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Grid
+        className={undefined}
+        container={true}
+        stackable={true}
+      >
+        <GridRow
+          columns={3}
+        >
+          <GridColumn
+            className="as-button"
+            verticalAlign="middle"
+            width={2}
+          >
+            <InternalLink
+              as="/restaurant/"
+              href={
+                Object {
+                  "pathname": "/restaurant",
+                  "query": Object {
+                    "queryId": "",
+                  },
+                }
+              }
+            >
+              <Image
+                as="img"
+                centered={true}
+                circular={true}
+                src="http://via.placeholder.com/350x150"
+                ui={true}
+              />
+            </InternalLink>
+          </GridColumn>
+          <GridColumn
+            width={11}
+          >
+            <InternalLink
+              as="/restaurant/"
+              href={
+                Object {
+                  "pathname": "/restaurant",
+                  "query": Object {
+                    "queryId": "",
+                  },
+                }
+              }
+            >
+              <h2
+                className="inline"
+                style={
+                  Object {
+                    "paddingRight": "1vw",
+                  }
+                }
+              >
+                name
+              </h2>
+            </InternalLink>
+            <Rating
+              rating={5}
+            />
+            <div
+              style={
+                Object {
+                  "height": "4em",
+                }
+              }
+            >
+              <div
+                className="flex-no-height"
+              >
+                <div
+                  className="text--sm color--sec"
+                >
+                  <Icon
+                    as="i"
+                    name="marker"
+                  />
+                  <div
+                    className="inline"
+                  >
+                    city
+                  </div>
+                </div>
+                <div
+                  className="bottom"
+                />
+                <div
+                  className="text--sm color--sec inline"
+                >
+                  <div
+                    className="inline"
+                  >
+                    <Icon
+                      as="i"
+                      name="tags"
+                    />
+                  </div>
+                  <div
+                    className="inline"
+                  >
+                    0
+                  </div>
+                </div>
+              </div>
+            </div>
+          </GridColumn>
+        </GridRow>
+      </Grid>,
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <GridRow
+          columns={3}
+        >
+          <GridColumn
+            className="as-button"
+            verticalAlign="middle"
+            width={2}
+          >
+            <InternalLink
+              as="/restaurant/"
+              href={
+                Object {
+                  "pathname": "/restaurant",
+                  "query": Object {
+                    "queryId": "",
+                  },
+                }
+              }
+            >
+              <Image
+                as="img"
+                centered={true}
+                circular={true}
+                src="http://via.placeholder.com/350x150"
+                ui={true}
+              />
+            </InternalLink>
+          </GridColumn>
+          <GridColumn
+            width={11}
+          >
+            <InternalLink
+              as="/restaurant/"
+              href={
+                Object {
+                  "pathname": "/restaurant",
+                  "query": Object {
+                    "queryId": "",
+                  },
+                }
+              }
+            >
+              <h2
+                className="inline"
+                style={
+                  Object {
+                    "paddingRight": "1vw",
+                  }
+                }
+              >
+                name
+              </h2>
+            </InternalLink>
+            <Rating
+              rating={5}
+            />
+            <div
+              style={
+                Object {
+                  "height": "4em",
+                }
+              }
+            >
+              <div
+                className="flex-no-height"
+              >
+                <div
+                  className="text--sm color--sec"
+                >
+                  <Icon
+                    as="i"
+                    name="marker"
+                  />
+                  <div
+                    className="inline"
+                  >
+                    city
+                  </div>
+                </div>
+                <div
+                  className="bottom"
+                />
+                <div
+                  className="text--sm color--sec inline"
+                >
+                  <div
+                    className="inline"
+                  >
+                    <Icon
+                      as="i"
+                      name="tags"
+                    />
+                  </div>
+                  <div
+                    className="inline"
+                  >
+                    0
+                  </div>
+                </div>
+              </div>
+            </div>
+          </GridColumn>
+        </GridRow>,
+        "className": undefined,
+        "container": true,
+        "stackable": true,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <GridColumn
+              className="as-button"
+              verticalAlign="middle"
+              width={2}
+            >
+              <InternalLink
+                as="/restaurant/"
+                href={
+                  Object {
+                    "pathname": "/restaurant",
+                    "query": Object {
+                      "queryId": "",
+                    },
+                  }
+                }
+              >
+                <Image
+                  as="img"
+                  centered={true}
+                  circular={true}
+                  src="http://via.placeholder.com/350x150"
+                  ui={true}
+                />
+              </InternalLink>
+            </GridColumn>,
+            <GridColumn
+              width={11}
+            >
+              <InternalLink
+                as="/restaurant/"
+                href={
+                  Object {
+                    "pathname": "/restaurant",
+                    "query": Object {
+                      "queryId": "",
+                    },
+                  }
+                }
+              >
+                <h2
+                  className="inline"
+                  style={
+                    Object {
+                      "paddingRight": "1vw",
+                    }
+                  }
+                >
+                  name
+                </h2>
+              </InternalLink>
+              <Rating
+                rating={5}
+              />
+              <div
+                style={
+                  Object {
+                    "height": "4em",
+                  }
+                }
+              >
+                <div
+                  className="flex-no-height"
+                >
+                  <div
+                    className="text--sm color--sec"
+                  >
+                    <Icon
+                      as="i"
+                      name="marker"
+                    />
+                    <div
+                      className="inline"
+                    >
+                      city
+                    </div>
+                  </div>
+                  <div
+                    className="bottom"
+                  />
+                  <div
+                    className="text--sm color--sec inline"
+                  >
+                    <div
+                      className="inline"
+                    >
+                      <Icon
+                        as="i"
+                        name="tags"
+                      />
+                    </div>
+                    <div
+                      className="inline"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </GridColumn>,
+            false,
+          ],
+          "columns": 3,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <InternalLink
+                as="/restaurant/"
+                href={
+                  Object {
+                    "pathname": "/restaurant",
+                    "query": Object {
+                      "queryId": "",
+                    },
+                  }
+                }
+              >
+                <Image
+                  as="img"
+                  centered={true}
+                  circular={true}
+                  src="http://via.placeholder.com/350x150"
+                  ui={true}
+                />
+              </InternalLink>,
+              "className": "as-button",
+              "verticalAlign": "middle",
+              "width": 2,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "as": "/restaurant/",
+                "children": <Image
+                  as="img"
+                  centered={true}
+                  circular={true}
+                  src="http://via.placeholder.com/350x150"
+                  ui={true}
+                />,
+                "href": Object {
+                  "pathname": "/restaurant",
+                  "query": Object {
+                    "queryId": "",
+                  },
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "img",
+                  "centered": true,
+                  "circular": true,
+                  "src": "http://via.placeholder.com/350x150",
+                  "ui": true,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <InternalLink
+                  as="/restaurant/"
+                  href={
+                    Object {
+                      "pathname": "/restaurant",
+                      "query": Object {
+                        "queryId": "",
+                      },
+                    }
+                  }
+                >
+                  <h2
+                    className="inline"
+                    style={
+                      Object {
+                        "paddingRight": "1vw",
+                      }
+                    }
+                  >
+                    name
+                  </h2>
+                </InternalLink>,
+                <Rating
+                  rating={5}
+                />,
+                <div
+                  style={
+                    Object {
+                      "height": "4em",
+                    }
+                  }
+                >
+                  <div
+                    className="flex-no-height"
+                  >
+                    <div
+                      className="text--sm color--sec"
+                    >
+                      <Icon
+                        as="i"
+                        name="marker"
+                      />
+                      <div
+                        className="inline"
+                      >
+                        city
+                      </div>
+                    </div>
+                    <div
+                      className="bottom"
+                    />
+                    <div
+                      className="text--sm color--sec inline"
+                    >
+                      <div
+                        className="inline"
+                      >
+                        <Icon
+                          as="i"
+                          name="tags"
+                        />
+                      </div>
+                      <div
+                        className="inline"
+                      >
+                        0
+                      </div>
+                    </div>
+                  </div>
+                </div>,
+              ],
+              "width": 11,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "/restaurant/",
+                  "children": <h2
+                    className="inline"
+                    style={
+                      Object {
+                        "paddingRight": "1vw",
+                      }
+                    }
+                  >
+                    name
+                  </h2>,
+                  "href": Object {
+                    "pathname": "/restaurant",
+                    "query": Object {
+                      "queryId": "",
+                    },
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "name",
+                    "className": "inline",
+                    "style": Object {
+                      "paddingRight": "1vw",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "name",
+                  "type": "h2",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "rating": 5,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="flex-no-height"
+                  >
+                    <div
+                      className="text--sm color--sec"
+                    >
+                      <Icon
+                        as="i"
+                        name="marker"
+                      />
+                      <div
+                        className="inline"
+                      >
+                        city
+                      </div>
+                    </div>
+                    <div
+                      className="bottom"
+                    />
+                    <div
+                      className="text--sm color--sec inline"
+                    >
+                      <div
+                        className="inline"
+                      >
+                        <Icon
+                          as="i"
+                          name="tags"
+                        />
+                      </div>
+                      <div
+                        className="inline"
+                      >
+                        0
+                      </div>
+                    </div>
+                  </div>,
+                  "style": Object {
+                    "height": "4em",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="text--sm color--sec"
+                      >
+                        <Icon
+                          as="i"
+                          name="marker"
+                        />
+                        <div
+                          className="inline"
+                        >
+                          city
+                        </div>
+                      </div>,
+                      <div
+                        className="bottom"
+                      />,
+                      <div
+                        className="text--sm color--sec inline"
+                      >
+                        <div
+                          className="inline"
+                        >
+                          <Icon
+                            as="i"
+                            name="tags"
+                          />
+                        </div>
+                        <div
+                          className="inline"
+                        >
+                          0
+                        </div>
+                      </div>,
+                    ],
+                    "className": "flex-no-height",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <Icon
+                            as="i"
+                            name="marker"
+                          />,
+                          <div
+                            className="inline"
+                          >
+                            city
+                          </div>,
+                        ],
+                        "className": "text--sm color--sec",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "as": "i",
+                            "name": "marker",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "city",
+                            "className": "inline",
+                          },
+                          "ref": null,
+                          "rendered": "city",
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "className": "bottom",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="inline"
+                          >
+                            <Icon
+                              as="i"
+                              name="tags"
+                            />
+                          </div>,
+                          Array [
+                            <div
+                              className="inline"
+                            >
+                              0
+                            </div>,
+                          ],
+                        ],
+                        "className": "text--sm color--sec inline",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <Icon
+                              as="i"
+                              name="tags"
+                            />,
+                            "className": "inline",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "as": "i",
+                              "name": "tags",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": "0",
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "0",
+                            "className": "inline",
+                          },
+                          "ref": null,
+                          "rendered": "0",
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": "div",
+              },
+            ],
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Grid
+          className={undefined}
+          container={true}
+          stackable={true}
+        >
+          <GridRow
+            columns={3}
+          >
+            <GridColumn
+              className="as-button"
+              verticalAlign="middle"
+              width={2}
+            >
+              <InternalLink
+                as="/restaurant/"
+                href={
+                  Object {
+                    "pathname": "/restaurant",
+                    "query": Object {
+                      "queryId": "",
+                    },
+                  }
+                }
+              >
+                <Image
+                  as="img"
+                  centered={true}
+                  circular={true}
+                  src="http://via.placeholder.com/350x150"
+                  ui={true}
+                />
+              </InternalLink>
+            </GridColumn>
+            <GridColumn
+              width={11}
+            >
+              <InternalLink
+                as="/restaurant/"
+                href={
+                  Object {
+                    "pathname": "/restaurant",
+                    "query": Object {
+                      "queryId": "",
+                    },
+                  }
+                }
+              >
+                <h2
+                  className="inline"
+                  style={
+                    Object {
+                      "paddingRight": "1vw",
+                    }
+                  }
+                >
+                  name
+                </h2>
+              </InternalLink>
+              <Rating
+                rating={5}
+              />
+              <div
+                style={
+                  Object {
+                    "height": "4em",
+                  }
+                }
+              >
+                <div
+                  className="flex-no-height"
+                >
+                  <div
+                    className="text--sm color--sec"
+                  >
+                    <Icon
+                      as="i"
+                      name="marker"
+                    />
+                    <div
+                      className="inline"
+                    >
+                      city
+                    </div>
+                  </div>
+                  <div
+                    className="bottom"
+                  />
+                  <div
+                    className="text--sm color--sec inline"
+                  >
+                    <div
+                      className="inline"
+                    >
+                      <Icon
+                        as="i"
+                        name="tags"
+                      />
+                    </div>
+                    <div
+                      className="inline"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </GridColumn>
+          </GridRow>
+        </Grid>,
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <GridRow
+            columns={3}
+          >
+            <GridColumn
+              className="as-button"
+              verticalAlign="middle"
+              width={2}
+            >
+              <InternalLink
+                as="/restaurant/"
+                href={
+                  Object {
+                    "pathname": "/restaurant",
+                    "query": Object {
+                      "queryId": "",
+                    },
+                  }
+                }
+              >
+                <Image
+                  as="img"
+                  centered={true}
+                  circular={true}
+                  src="http://via.placeholder.com/350x150"
+                  ui={true}
+                />
+              </InternalLink>
+            </GridColumn>
+            <GridColumn
+              width={11}
+            >
+              <InternalLink
+                as="/restaurant/"
+                href={
+                  Object {
+                    "pathname": "/restaurant",
+                    "query": Object {
+                      "queryId": "",
+                    },
+                  }
+                }
+              >
+                <h2
+                  className="inline"
+                  style={
+                    Object {
+                      "paddingRight": "1vw",
+                    }
+                  }
+                >
+                  name
+                </h2>
+              </InternalLink>
+              <Rating
+                rating={5}
+              />
+              <div
+                style={
+                  Object {
+                    "height": "4em",
+                  }
+                }
+              >
+                <div
+                  className="flex-no-height"
+                >
+                  <div
+                    className="text--sm color--sec"
+                  >
+                    <Icon
+                      as="i"
+                      name="marker"
+                    />
+                    <div
+                      className="inline"
+                    >
+                      city
+                    </div>
+                  </div>
+                  <div
+                    className="bottom"
+                  />
+                  <div
+                    className="text--sm color--sec inline"
+                  >
+                    <div
+                      className="inline"
+                    >
+                      <Icon
+                        as="i"
+                        name="tags"
+                      />
+                    </div>
+                    <div
+                      className="inline"
+                    >
+                      0
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </GridColumn>
+          </GridRow>,
+          "className": undefined,
+          "container": true,
+          "stackable": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <GridColumn
+                className="as-button"
+                verticalAlign="middle"
+                width={2}
+              >
+                <InternalLink
+                  as="/restaurant/"
+                  href={
+                    Object {
+                      "pathname": "/restaurant",
+                      "query": Object {
+                        "queryId": "",
+                      },
+                    }
+                  }
+                >
+                  <Image
+                    as="img"
+                    centered={true}
+                    circular={true}
+                    src="http://via.placeholder.com/350x150"
+                    ui={true}
+                  />
+                </InternalLink>
+              </GridColumn>,
+              <GridColumn
+                width={11}
+              >
+                <InternalLink
+                  as="/restaurant/"
+                  href={
+                    Object {
+                      "pathname": "/restaurant",
+                      "query": Object {
+                        "queryId": "",
+                      },
+                    }
+                  }
+                >
+                  <h2
+                    className="inline"
+                    style={
+                      Object {
+                        "paddingRight": "1vw",
+                      }
+                    }
+                  >
+                    name
+                  </h2>
+                </InternalLink>
+                <Rating
+                  rating={5}
+                />
+                <div
+                  style={
+                    Object {
+                      "height": "4em",
+                    }
+                  }
+                >
+                  <div
+                    className="flex-no-height"
+                  >
+                    <div
+                      className="text--sm color--sec"
+                    >
+                      <Icon
+                        as="i"
+                        name="marker"
+                      />
+                      <div
+                        className="inline"
+                      >
+                        city
+                      </div>
+                    </div>
+                    <div
+                      className="bottom"
+                    />
+                    <div
+                      className="text--sm color--sec inline"
+                    >
+                      <div
+                        className="inline"
+                      >
+                        <Icon
+                          as="i"
+                          name="tags"
+                        />
+                      </div>
+                      <div
+                        className="inline"
+                      >
+                        0
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </GridColumn>,
+              false,
+            ],
+            "columns": 3,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": <InternalLink
+                  as="/restaurant/"
+                  href={
+                    Object {
+                      "pathname": "/restaurant",
+                      "query": Object {
+                        "queryId": "",
+                      },
+                    }
+                  }
+                >
+                  <Image
+                    as="img"
+                    centered={true}
+                    circular={true}
+                    src="http://via.placeholder.com/350x150"
+                    ui={true}
+                  />
+                </InternalLink>,
+                "className": "as-button",
+                "verticalAlign": "middle",
+                "width": 2,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "/restaurant/",
+                  "children": <Image
+                    as="img"
+                    centered={true}
+                    circular={true}
+                    src="http://via.placeholder.com/350x150"
+                    ui={true}
+                  />,
+                  "href": Object {
+                    "pathname": "/restaurant",
+                    "query": Object {
+                      "queryId": "",
+                    },
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "img",
+                    "centered": true,
+                    "circular": true,
+                    "src": "http://via.placeholder.com/350x150",
+                    "ui": true,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <InternalLink
+                    as="/restaurant/"
+                    href={
+                      Object {
+                        "pathname": "/restaurant",
+                        "query": Object {
+                          "queryId": "",
+                        },
+                      }
+                    }
+                  >
+                    <h2
+                      className="inline"
+                      style={
+                        Object {
+                          "paddingRight": "1vw",
+                        }
+                      }
+                    >
+                      name
+                    </h2>
+                  </InternalLink>,
+                  <Rating
+                    rating={5}
+                  />,
+                  <div
+                    style={
+                      Object {
+                        "height": "4em",
+                      }
+                    }
+                  >
+                    <div
+                      className="flex-no-height"
+                    >
+                      <div
+                        className="text--sm color--sec"
+                      >
+                        <Icon
+                          as="i"
+                          name="marker"
+                        />
+                        <div
+                          className="inline"
+                        >
+                          city
+                        </div>
+                      </div>
+                      <div
+                        className="bottom"
+                      />
+                      <div
+                        className="text--sm color--sec inline"
+                      >
+                        <div
+                          className="inline"
+                        >
+                          <Icon
+                            as="i"
+                            name="tags"
+                          />
+                        </div>
+                        <div
+                          className="inline"
+                        >
+                          0
+                        </div>
+                      </div>
+                    </div>
+                  </div>,
+                ],
+                "width": 11,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "/restaurant/",
+                    "children": <h2
+                      className="inline"
+                      style={
+                        Object {
+                          "paddingRight": "1vw",
+                        }
+                      }
+                    >
+                      name
+                    </h2>,
+                    "href": Object {
+                      "pathname": "/restaurant",
+                      "query": Object {
+                        "queryId": "",
+                      },
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "name",
+                      "className": "inline",
+                      "style": Object {
+                        "paddingRight": "1vw",
+                      },
+                    },
+                    "ref": null,
+                    "rendered": "name",
+                    "type": "h2",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "rating": 5,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="flex-no-height"
+                    >
+                      <div
+                        className="text--sm color--sec"
+                      >
+                        <Icon
+                          as="i"
+                          name="marker"
+                        />
+                        <div
+                          className="inline"
+                        >
+                          city
+                        </div>
+                      </div>
+                      <div
+                        className="bottom"
+                      />
+                      <div
+                        className="text--sm color--sec inline"
+                      >
+                        <div
+                          className="inline"
+                        >
+                          <Icon
+                            as="i"
+                            name="tags"
+                          />
+                        </div>
+                        <div
+                          className="inline"
+                        >
+                          0
+                        </div>
+                      </div>
+                    </div>,
+                    "style": Object {
+                      "height": "4em",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="text--sm color--sec"
+                        >
+                          <Icon
+                            as="i"
+                            name="marker"
+                          />
+                          <div
+                            className="inline"
+                          >
+                            city
+                          </div>
+                        </div>,
+                        <div
+                          className="bottom"
+                        />,
+                        <div
+                          className="text--sm color--sec inline"
+                        >
+                          <div
+                            className="inline"
+                          >
+                            <Icon
+                              as="i"
+                              name="tags"
+                            />
+                          </div>
+                          <div
+                            className="inline"
+                          >
+                            0
+                          </div>
+                        </div>,
+                      ],
+                      "className": "flex-no-height",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <Icon
+                              as="i"
+                              name="marker"
+                            />,
+                            <div
+                              className="inline"
+                            >
+                              city
+                            </div>,
+                          ],
+                          "className": "text--sm color--sec",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "as": "i",
+                              "name": "marker",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": [Function],
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "city",
+                              "className": "inline",
+                            },
+                            "ref": null,
+                            "rendered": "city",
+                            "type": "div",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "className": "bottom",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <div
+                              className="inline"
+                            >
+                              <Icon
+                                as="i"
+                                name="tags"
+                              />
+                            </div>,
+                            Array [
+                              <div
+                                className="inline"
+                              >
+                                0
+                              </div>,
+                            ],
+                          ],
+                          "className": "text--sm color--sec inline",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": <Icon
+                                as="i"
+                                name="tags"
+                              />,
+                              "className": "inline",
+                            },
+                            "ref": null,
+                            "rendered": Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "class",
+                              "props": Object {
+                                "as": "i",
+                                "name": "tags",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": [Function],
+                            },
+                            "type": "div",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": "0",
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "0",
+                              "className": "inline",
+                            },
+                            "ref": null,
+                            "rendered": "0",
+                            "type": "div",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
