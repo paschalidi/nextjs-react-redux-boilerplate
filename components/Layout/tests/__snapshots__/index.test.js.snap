@@ -1,0 +1,485 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Testing Layout 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Layout />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <SideEffect(Head)>
+          <title />
+          <script
+            src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6"
+          />
+          <link
+            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400"
+            rel="stylesheet"
+          />
+          <link
+            href="https://afeld.github.io/emoji-css/emoji.css"
+            rel="stylesheet"
+          />
+          <link
+            href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"
+            rel="stylesheet"
+          />
+          <link
+            href="/static/index.css"
+            rel="stylesheet"
+            type="text/css"
+          />
+          <meta
+            content="Delivery hero code challenge"
+            name="description"
+          />
+          <meta
+            content="UsrcaotuK_VXJnLMdyJBqtgpGtaaFNRihg96a7rVplY"
+            name="google-site-verification"
+          />
+          <meta
+            charSet="utf-8"
+          />
+          <meta
+            content="initial-scale=1.0, width=device-width"
+            name="viewport"
+          />
+        </SideEffect(Head)>,
+        <Unknown />,
+        undefined,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <title />,
+            <script
+              src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6"
+            />,
+            <link
+              href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400"
+              rel="stylesheet"
+            />,
+            <link
+              href="https://afeld.github.io/emoji-css/emoji.css"
+              rel="stylesheet"
+            />,
+            <link
+              href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"
+              rel="stylesheet"
+            />,
+            <link
+              href="/static/index.css"
+              rel="stylesheet"
+              type="text/css"
+            />,
+            <meta
+              content="Delivery hero code challenge"
+              name="description"
+            />,
+            <meta
+              content="UsrcaotuK_VXJnLMdyJBqtgpGtaaFNRihg96a7rVplY"
+              name="google-site-verification"
+            />,
+            <meta
+              charSet="utf-8"
+            />,
+            <meta
+              content="initial-scale=1.0, width=device-width"
+              name="viewport"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "title",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "src": "https://cdn.polyfill.io/v2/polyfill.min.js?features=es6",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "script",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "href": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400",
+              "rel": "stylesheet",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "link",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "href": "https://afeld.github.io/emoji-css/emoji.css",
+              "rel": "stylesheet",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "link",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "href": "//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css",
+              "rel": "stylesheet",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "link",
+          },
+          Object {
+            "instance": null,
+            "key": "index-css",
+            "nodeType": "host",
+            "props": Object {
+              "href": "/static/index.css",
+              "rel": "stylesheet",
+              "type": "text/css",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "link",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "Delivery hero code challenge",
+              "name": "description",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "UsrcaotuK_VXJnLMdyJBqtgpGtaaFNRihg96a7rVplY",
+              "name": "google-site-verification",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "charSet": "utf-8",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "content": "initial-scale=1.0, width=device-width",
+              "name": "viewport",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "meta",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      undefined,
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <SideEffect(Head)>
+            <title />
+            <script
+              src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6"
+            />
+            <link
+              href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400"
+              rel="stylesheet"
+            />
+            <link
+              href="https://afeld.github.io/emoji-css/emoji.css"
+              rel="stylesheet"
+            />
+            <link
+              href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"
+              rel="stylesheet"
+            />
+            <link
+              href="/static/index.css"
+              rel="stylesheet"
+              type="text/css"
+            />
+            <meta
+              content="Delivery hero code challenge"
+              name="description"
+            />
+            <meta
+              content="UsrcaotuK_VXJnLMdyJBqtgpGtaaFNRihg96a7rVplY"
+              name="google-site-verification"
+            />
+            <meta
+              charSet="utf-8"
+            />
+            <meta
+              content="initial-scale=1.0, width=device-width"
+              name="viewport"
+            />
+          </SideEffect(Head)>,
+          <Unknown />,
+          undefined,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <title />,
+              <script
+                src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6"
+              />,
+              <link
+                href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400"
+                rel="stylesheet"
+              />,
+              <link
+                href="https://afeld.github.io/emoji-css/emoji.css"
+                rel="stylesheet"
+              />,
+              <link
+                href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"
+                rel="stylesheet"
+              />,
+              <link
+                href="/static/index.css"
+                rel="stylesheet"
+                type="text/css"
+              />,
+              <meta
+                content="Delivery hero code challenge"
+                name="description"
+              />,
+              <meta
+                content="UsrcaotuK_VXJnLMdyJBqtgpGtaaFNRihg96a7rVplY"
+                name="google-site-verification"
+              />,
+              <meta
+                charSet="utf-8"
+              />,
+              <meta
+                content="initial-scale=1.0, width=device-width"
+                name="viewport"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "title",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "src": "https://cdn.polyfill.io/v2/polyfill.min.js?features=es6",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "script",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "href": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400",
+                "rel": "stylesheet",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "link",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "href": "https://afeld.github.io/emoji-css/emoji.css",
+                "rel": "stylesheet",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "link",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "href": "//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css",
+                "rel": "stylesheet",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "link",
+            },
+            Object {
+              "instance": null,
+              "key": "index-css",
+              "nodeType": "host",
+              "props": Object {
+                "href": "/static/index.css",
+                "rel": "stylesheet",
+                "type": "text/css",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "link",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "Delivery hero code challenge",
+                "name": "description",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "UsrcaotuK_VXJnLMdyJBqtgpGtaaFNRihg96a7rVplY",
+                "name": "google-site-verification",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "charSet": "utf-8",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "content": "initial-scale=1.0, width=device-width",
+                "name": "viewport",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "meta",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        undefined,
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

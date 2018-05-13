@@ -1,0 +1,477 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Testing Button 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Button>
+    button
+  </Button>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <button
+        className="undefined btn"
+        onClick={[Function]}
+        style={undefined}
+        type="button"
+      >
+        <style>
+          
+            .btn {
+                cursor: pointer;
+                padding: 8px 15px;
+                display: inline-block;
+                margin: 0;
+                overflow: hidden;
+                border-width: 0;
+                outline: none;
+                border-radius: 2px;
+                background-color: #2ecc71;
+                color: white;
+                transition: background-color .2s;
+                font-weight: 200;
+            }
+
+            .btn:hover,
+            .btn:focus {
+                background-color: #27ae60;
+            }
+
+            .btn.transparent {
+                background-color: transparent;
+                border: solid 1px #999;
+                color: #313541;
+            }
+
+            .btn.transparent:hover,
+            .btn.transparent:focus {
+                background-color: #999;
+                color: white;
+            }
+
+            .btn.orange {
+                border: solid 1px #e67e22;
+                background-color: #e67e22;
+            }
+
+            .btn.orange:hover, .btn.orange:focus {
+                border: solid 1px #d35400;
+                background-color: #d35400;
+            }
+        
+        </style>
+        button
+      </button>,
+      "className": "inline",
+      "style": Object {
+        "padding": "0 5px 3px 0",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <style>
+            
+            .btn {
+                cursor: pointer;
+                padding: 8px 15px;
+                display: inline-block;
+                margin: 0;
+                overflow: hidden;
+                border-width: 0;
+                outline: none;
+                border-radius: 2px;
+                background-color: #2ecc71;
+                color: white;
+                transition: background-color .2s;
+                font-weight: 200;
+            }
+
+            .btn:hover,
+            .btn:focus {
+                background-color: #27ae60;
+            }
+
+            .btn.transparent {
+                background-color: transparent;
+                border: solid 1px #999;
+                color: #313541;
+            }
+
+            .btn.transparent:hover,
+            .btn.transparent:focus {
+                background-color: #999;
+                color: white;
+            }
+
+            .btn.orange {
+                border: solid 1px #e67e22;
+                background-color: #e67e22;
+            }
+
+            .btn.orange:hover, .btn.orange:focus {
+                border: solid 1px #d35400;
+                background-color: #d35400;
+            }
+        
+          </style>,
+          "button",
+        ],
+        "className": "undefined btn",
+        "onClick": [Function],
+        "style": undefined,
+        "type": "button",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "
+            .btn {
+                cursor: pointer;
+                padding: 8px 15px;
+                display: inline-block;
+                margin: 0;
+                overflow: hidden;
+                border-width: 0;
+                outline: none;
+                border-radius: 2px;
+                background-color: #2ecc71;
+                color: white;
+                transition: background-color .2s;
+                font-weight: 200;
+            }
+
+            .btn:hover,
+            .btn:focus {
+                background-color: #27ae60;
+            }
+
+            .btn.transparent {
+                background-color: transparent;
+                border: solid 1px #999;
+                color: #313541;
+            }
+
+            .btn.transparent:hover,
+            .btn.transparent:focus {
+                background-color: #999;
+                color: white;
+            }
+
+            .btn.orange {
+                border: solid 1px #e67e22;
+                background-color: #e67e22;
+            }
+
+            .btn.orange:hover, .btn.orange:focus {
+                border: solid 1px #d35400;
+                background-color: #d35400;
+            }
+        ",
+          },
+          "ref": null,
+          "rendered": "
+            .btn {
+                cursor: pointer;
+                padding: 8px 15px;
+                display: inline-block;
+                margin: 0;
+                overflow: hidden;
+                border-width: 0;
+                outline: none;
+                border-radius: 2px;
+                background-color: #2ecc71;
+                color: white;
+                transition: background-color .2s;
+                font-weight: 200;
+            }
+
+            .btn:hover,
+            .btn:focus {
+                background-color: #27ae60;
+            }
+
+            .btn.transparent {
+                background-color: transparent;
+                border: solid 1px #999;
+                color: #313541;
+            }
+
+            .btn.transparent:hover,
+            .btn.transparent:focus {
+                background-color: #999;
+                color: white;
+            }
+
+            .btn.orange {
+                border: solid 1px #e67e22;
+                background-color: #e67e22;
+            }
+
+            .btn.orange:hover, .btn.orange:focus {
+                border: solid 1px #d35400;
+                background-color: #d35400;
+            }
+        ",
+          "type": "style",
+        },
+        "button",
+      ],
+      "type": "button",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <button
+          className="undefined btn"
+          onClick={[Function]}
+          style={undefined}
+          type="button"
+        >
+          <style>
+            
+            .btn {
+                cursor: pointer;
+                padding: 8px 15px;
+                display: inline-block;
+                margin: 0;
+                overflow: hidden;
+                border-width: 0;
+                outline: none;
+                border-radius: 2px;
+                background-color: #2ecc71;
+                color: white;
+                transition: background-color .2s;
+                font-weight: 200;
+            }
+
+            .btn:hover,
+            .btn:focus {
+                background-color: #27ae60;
+            }
+
+            .btn.transparent {
+                background-color: transparent;
+                border: solid 1px #999;
+                color: #313541;
+            }
+
+            .btn.transparent:hover,
+            .btn.transparent:focus {
+                background-color: #999;
+                color: white;
+            }
+
+            .btn.orange {
+                border: solid 1px #e67e22;
+                background-color: #e67e22;
+            }
+
+            .btn.orange:hover, .btn.orange:focus {
+                border: solid 1px #d35400;
+                background-color: #d35400;
+            }
+        
+          </style>
+          button
+        </button>,
+        "className": "inline",
+        "style": Object {
+          "padding": "0 5px 3px 0",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <style>
+              
+            .btn {
+                cursor: pointer;
+                padding: 8px 15px;
+                display: inline-block;
+                margin: 0;
+                overflow: hidden;
+                border-width: 0;
+                outline: none;
+                border-radius: 2px;
+                background-color: #2ecc71;
+                color: white;
+                transition: background-color .2s;
+                font-weight: 200;
+            }
+
+            .btn:hover,
+            .btn:focus {
+                background-color: #27ae60;
+            }
+
+            .btn.transparent {
+                background-color: transparent;
+                border: solid 1px #999;
+                color: #313541;
+            }
+
+            .btn.transparent:hover,
+            .btn.transparent:focus {
+                background-color: #999;
+                color: white;
+            }
+
+            .btn.orange {
+                border: solid 1px #e67e22;
+                background-color: #e67e22;
+            }
+
+            .btn.orange:hover, .btn.orange:focus {
+                border: solid 1px #d35400;
+                background-color: #d35400;
+            }
+        
+            </style>,
+            "button",
+          ],
+          "className": "undefined btn",
+          "onClick": [Function],
+          "style": undefined,
+          "type": "button",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "
+            .btn {
+                cursor: pointer;
+                padding: 8px 15px;
+                display: inline-block;
+                margin: 0;
+                overflow: hidden;
+                border-width: 0;
+                outline: none;
+                border-radius: 2px;
+                background-color: #2ecc71;
+                color: white;
+                transition: background-color .2s;
+                font-weight: 200;
+            }
+
+            .btn:hover,
+            .btn:focus {
+                background-color: #27ae60;
+            }
+
+            .btn.transparent {
+                background-color: transparent;
+                border: solid 1px #999;
+                color: #313541;
+            }
+
+            .btn.transparent:hover,
+            .btn.transparent:focus {
+                background-color: #999;
+                color: white;
+            }
+
+            .btn.orange {
+                border: solid 1px #e67e22;
+                background-color: #e67e22;
+            }
+
+            .btn.orange:hover, .btn.orange:focus {
+                border: solid 1px #d35400;
+                background-color: #d35400;
+            }
+        ",
+            },
+            "ref": null,
+            "rendered": "
+            .btn {
+                cursor: pointer;
+                padding: 8px 15px;
+                display: inline-block;
+                margin: 0;
+                overflow: hidden;
+                border-width: 0;
+                outline: none;
+                border-radius: 2px;
+                background-color: #2ecc71;
+                color: white;
+                transition: background-color .2s;
+                font-weight: 200;
+            }
+
+            .btn:hover,
+            .btn:focus {
+                background-color: #27ae60;
+            }
+
+            .btn.transparent {
+                background-color: transparent;
+                border: solid 1px #999;
+                color: #313541;
+            }
+
+            .btn.transparent:hover,
+            .btn.transparent:focus {
+                background-color: #999;
+                color: white;
+            }
+
+            .btn.orange {
+                border: solid 1px #e67e22;
+                background-color: #e67e22;
+            }
+
+            .btn.orange:hover, .btn.orange:focus {
+                border: solid 1px #d35400;
+                background-color: #d35400;
+            }
+        ",
+            "type": "style",
+          },
+          "button",
+        ],
+        "type": "button",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
