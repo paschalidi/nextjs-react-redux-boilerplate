@@ -17,8 +17,6 @@ app.prepare().then(() => {
     ['/restaurant/:queryId', '/restaurant', 'queryId']
   ].forEach(([maskedUrl, actualUrl, id]) => {
     server.get(maskedUrl, (req, res) => {
-      console.log('server@@');
-      console.log(req.params[id]);
       let queryParams;
       id ? queryParams = { queryId: req.params[id] } : queryParams = {};
       app.render(req, res, actualUrl, { ...queryParams });
