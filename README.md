@@ -1,64 +1,49 @@
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/zeit/next.js/tree/master/examples/with-redux-wrapper)
+## General info
+You can find a live version of the challenge [here]()
+This project was bootstrapped with [zeit/next.js](https://github.com/zeit/next.js/).
 
-# Redux example
 
-## How to use
 
-### Using `create-next-app`
+## Available Scripts
 
-Execute [`create-next-app`](https://github.com/segmentio/create-next-app) with [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) or [npx](https://github.com/zkat/npx#readme) to bootstrap the example:
+In the project directory, you can run:
 
-```bash
-npx create-next-app --example with-redux-wrapper with-redux-wrapper-app
-# or
-yarn create next-app --example with-redux-wrapper with-redux-wrapper-app
-```
+#### `npm run dev`
 
-### Download manually
+Runs the app in the development mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Download the example [or clone the repo](https://github.com/zeit/next.js):
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
-```bash
-curl https://codeload.github.com/zeit/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-redux-wrapper
-cd with-redux-wrapper
-```
+#### `npm test`
 
-Install it and run:
+Launches the test runner in the interactive watch mode.
 
-```bash
-npm install
-npm run dev
-# or
-yarn
-yarn dev
-```
 
-Deploy it to the cloud with [now](https://zeit.co/now) ([download](https://zeit.co/download))
 
-```bash
-now
-```
+## Implementation details
 
-## The idea behind the example
+### Global requirements
 
-Usually splitting your app state into `pages` feels natural but sometimes you'll want to have global state for your app. This is an example on how you can use redux that also works with our universal rendering approach. This is just a way you can do it but it's not the only one.
+* For tech stack I used React and on top of that Nextjs as boilerplate. Argumentation for using Nextjs is that, Nextjs provides out of the box SSR :)
+* For the stiling I did 90 percent of the css myself but I used  [Semantic UI React](https://react.semantic-ui.com/) for the Grid so I saved some time. The argumentation behind this is that people have send already a lot of coding power into developing a `flex` grid and I didnt see why I should do it again myself from scratch.
 
-In the first example we are going to display a digital clock that updates every second. The first render is happening in the server and then the browser will take over. To illustrate this, the server rendered clock will have a different background color than the client one.
 
-![](http://i.imgur.com/JCxtWSj.gif)
 
-Our page is located at `pages/index.js` so it will map the route `/`. To get the initial data for rendering we are implementing the static method `getInitialProps`, initializing the redux store and dispatching the required actions until we are ready to return the initial state to be rendered. Since the component is wrapped with `next-redux-wrapper`, the component is automatically connected to Redux and wrapped with `react-redux Provider`, that allows us to access redux state immediately and send the store down to children components so they can access to the state when required.
+### Restaurant list page requirements
 
-For safety it is recommended to wrap all pages, no matter if they use Redux or not, so that you should not care about it anymore in all child components.
+* Filters and sorting you will see the moment you run the app.
+* Clicking the restaurant works as described [here](https://docs.google.com/document/d/1A13K02UIrNjkNT4rIwMptUaadUzgsSToiRJt8yT38Ts/edit?ts=5af0126c#)
+* Functionality of Pagination also is there.
 
-`withRedux` function accepts `makeStore` as first argument, all other arguments are internally passed to `react-redux connect()` function. `makeStore` function will receive initialState as one argument and should return a new instance of redux store each time when called, no memoization needed here. See the [full example](https://github.com/kirill-konshin/next-redux-wrapper#usage) in the Next Redux Wrapper repository. And there's another package [next-connect-redux](https://github.com/huzidaha/next-connect-redux) available with similar features.
 
-To pass the initial state from the server to the client we pass it as a prop called `initialState` so then it's available when the client takes over.
 
-The trick here for supporting universal redux is to separate the cases for the client and the server. When we are on the server we want to create a new store every time, otherwise different users data will be mixed up. If we are in the client we want to use always the same store. That's what we accomplish on `store.js`
+### Restaurant details page requirements
 
-The clock, under `components/Clock.js`, has access to the state using the `connect` function from `react-redux`. In this case Clock is a direct child from the page but it could be deep down the render tree.
+* Style is made by me.
+* When user clicks a product then there is a console.log with the product details.
 
-The second example, under `components/AddCount.js`, shows a simple add counter function with a class component implementing a common redux pattern of mapping state and props. Again, the first render is happening in the server and instead of starting the count at 0, it will dispatch an action in redux that starts the count at 1. This continues to highlight how each navigation triggers a server render first and then a client render second, when you navigate between pages.
+### Extras 
 
-For simplicity and readability, Reducers, Actions, and Store creators are all in the same file: `store.js`
+* Mobile responsive for every page.
