@@ -19,10 +19,16 @@ import Button from '../Button';
 
 class Restaurant extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
+  constructor(props) {
+    super(props);
+    this.state = { imgSrc: props.logoUrl };
+  }
+
+  handleImageOnError = () => this.setState({ imgSrc: 'https://d2hzvxamqgodh.cloudfront.net/sites/default/files/storelogo/deliveryhero.png' });
+
   render() {
     const {
             id,
-            logoUrl,
             name,
             rating,
             city,
@@ -38,10 +44,14 @@ class Restaurant extends React.Component { // eslint-disable-line react/prefer-s
                 href={{ pathname: '/restaurant', query: { queryId: id } }}
                 as={`/restaurant/${id}`}
               >
-                <Image centered circular src={logoUrl} />
+                <Image
+                  centered
+                  circular
+                  src={this.state.imgSrc}
+                  onError={this.handleImageOnError}
+                />
               </InternalLink>
             </Grid.Column>
-
 
             <Grid.Column width={11}>
               <InternalLink
