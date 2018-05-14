@@ -47,3 +47,4 @@ Launches the test runner in the interactive watch mode.
 ### Extras 
 
 * Mobile responsive for every page.
+* Broken images handle. (When image returns 404 then a plcaeholder replaces it)
