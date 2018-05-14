@@ -16,19 +16,16 @@ import RowCategoryFilter from '../components/RowCategoryFilter';
 
 class Index extends React.Component {
   static async getInitialProps() {
-    await axios.get('https://u3sv7kca97.execute-api.us-east-1.amazonaws.com/prod/restaurants', { headers: { token: cookie } })
+    let token = cookie.load('accessToken');
+    await axios.get('https://mockapi.pizza.de/v1/restaurants', { headers: { token } })
     .catch(async () => {
-      const aws = await axios.get('https://u3sv7kca97.execute-api.us-east-1.amazonaws.com/prod/auth');
+      const aws = await axios.get('https://mockapi.pizza.de/v1/auth');
       cookie.save('accessToken', aws.data.token, { path: '/' });
+      token = aws.data.token;
     });
 
-    let token = cookie.load('accessToken');
-    if (!token) {
-      const aws = await axios.get('https://u3sv7kca97.execute-api.us-east-1.amazonaws.com/prod/restaurants', { headers: { token: '4eHc6LnYxdjI1dfZpamhoJ6lnqqnrQ' } });
-      token = aws.data.token;
-    }
-    let request = await axios.get('https://u3sv7kca97.execute-api.us-east-1.amazonaws.com/prod/restaurants', { headers: { token } });
-    return { entry: request.data };
+    let request = await axios.get('https://mockapi.pizza.de/v1/restaurants', { headers: { token } });
+    return { entry: request.data, token };
   }
 
   constructor(props) {

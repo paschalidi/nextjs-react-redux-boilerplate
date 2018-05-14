@@ -7,22 +7,23 @@ import withRedux from 'next-redux-wrapper';
 import axios from 'axios';
 import Layout from '../components/Layout';
 import Restaurant from '../components/Restaurant';
-import InternalLink from '../components/InternalLink';
 import cookie from 'react-cookie';
-import { Grid, Icon, Header, Image, Rail, Segment, Sticky } from 'semantic-ui-react';
+import { Grid, Icon } from 'semantic-ui-react';
 
 import { toCamelCase } from '../utils/string-manipulators';
 
 
 class RestaurantPage extends React.Component {
   static async getInitialProps({ query }) {
-    await axios.get('https://u3sv7kca97.execute-api.us-east-1.amazonaws.com/prod/restaurants', { headers: { token: cookie } })
+    let token = cookie.load('accessToken');
+    await axios.get('https://mockapi.pizza.de/v1/restaurants', { headers: { token } })
     .catch(async () => {
-      const aws = await axios.get('https://u3sv7kca97.execute-api.us-east-1.amazonaws.com/prod/auth');
+      const aws = await axios.get('https://mockapi.pizza.de/v1/auth');
       cookie.save('accessToken', aws.data.token, { path: '/' });
+      token = aws.data.token;
     });
-    const token = cookie.load('accessToken');
-    let request = await axios.get(`https://u3sv7kca97.execute-api.us-east-1.amazonaws.com/prod/restaurants/${query.queryId}`, { headers: { token } });
+
+    let request = await axios.get(`https://mockapi.pizza.de/v1/restaurants/${query.queryId}`, { headers: { token } });
     return { id: query.queryId, restaurants: request.data };
   }
 
