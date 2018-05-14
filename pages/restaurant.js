@@ -29,7 +29,6 @@ class RestaurantPage extends React.Component {
 
   constructor(props) {
     super(props);
-    console.log(props);
     this.state = { activeTab: 0 };
   }
 
@@ -195,12 +194,12 @@ class RestaurantPage extends React.Component {
               </Grid.Column>
               <Grid.Column textAlign='center'>
                 {restaurants.openingTimes.map(index =>
-                  <div>{index.start} - {index.end}</div>)}
+                  <div key={index}>{index.start} - {index.end}</div>)}
               </Grid.Column>
               <Grid.Column textAlign='center'>
                 {
                   restaurants.paymentMethods.map(index =>
-                    <div>{toCamelCase(index.name.replace(/_/g, ' '))}</div>)
+                    <div key={index}>{toCamelCase(index.name.replace(/_/g, ' '))}</div>)
                 }
               </Grid.Column>
             </Grid.Row>
@@ -247,7 +246,7 @@ class RestaurantPage extends React.Component {
             {
               activeTab === 0 &&
               restaurants.sections.map(index =>
-                <Grid.Row>
+                <Grid.Row key={index}>
                   <Grid.Column width={11}>
                     <div style={{ position: 'relative' }}>
                       <div className='text--md r-section--style'>{index.name}</div>
@@ -255,7 +254,11 @@ class RestaurantPage extends React.Component {
                     </div>
                     {
                       index.items.map(newIndex =>
-                        <div className='r-item--box' onClick={() => console.log(newIndex)}>
+                        <div
+                          key={newIndex}
+                          className='r-item--box'
+                          onClick={() => console.log(newIndex)}
+                        >
                           <div className='text--md'>{newIndex.name}</div>
                           <div className='text--sm color--sec r-item--description'>{newIndex.description}</div>
                           <div className='r-item--price'>{newIndex.price} €</div>
@@ -306,7 +309,7 @@ class RestaurantPage extends React.Component {
                       <div>
                         {
                           restaurants.openingTimes.map(index =>
-                            <div>{index.start} - {index.end}</div>)
+                            <div key={index}>{index.start} - {index.end}</div>)
                         }
                       </div>
                     </div>
@@ -319,7 +322,7 @@ class RestaurantPage extends React.Component {
                       <div>
                         {
                           restaurants.paymentMethods.map((index, key) =>
-                            <div>{key + 1}. {toCamelCase(index.name.replace(/_/g, ' '))}</div>)
+                            <div key={index}>{key + 1}. {toCamelCase(index.name.replace(/_/g, ' '))}</div>)
                         }
                       </div>
                     </div>

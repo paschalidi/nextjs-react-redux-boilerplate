@@ -21,9 +21,6 @@ class RowSorting extends React.Component { // eslint-disable-line react/prefer-s
 
   render() {
     const { isRatingDesc, isNameDesc, isOnlineNow, isReachableNow, style } = this.props;
-    console.log('isOnlineNow');
-    console.log(isOnlineNow);
-    console.log(isReachableNow);
     return (
       <Grid container stackable style={style}>
         {/* language=CSS */}

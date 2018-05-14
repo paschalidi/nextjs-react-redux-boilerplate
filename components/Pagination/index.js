@@ -53,9 +53,9 @@ class Pagination extends React.Component { // eslint-disable-line react/prefer-s
                 <Grid.Column
                   key={key}
                   textAlign='center'
-                  width={1} onClick={() => this.handlePaginationClick(key)}
+                  width={1}
                 >
-                  <Button className={`${activePage === key ? 'active-page' : 'page transparent'}`}>
+                  <Button onClick={() => this.handlePaginationClick(key)} className={`${activePage === key ? 'active-page' : 'page transparent'}`}>
                     {key + 1}
                   </Button>
                 </Grid.Column>
