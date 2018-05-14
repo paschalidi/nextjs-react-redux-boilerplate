@@ -57,6 +57,7 @@ ShallowWrapper {
                 as="img"
                 centered={true}
                 circular={true}
+                onError={[Function]}
                 src="http://via.placeholder.com/350x150"
                 ui={true}
               />
@@ -169,6 +170,7 @@ ShallowWrapper {
                 as="img"
                 centered={true}
                 circular={true}
+                onError={[Function]}
                 src="http://via.placeholder.com/350x150"
                 ui={true}
               />
@@ -280,6 +282,7 @@ ShallowWrapper {
                   as="img"
                   centered={true}
                   circular={true}
+                  onError={[Function]}
                   src="http://via.placeholder.com/350x150"
                   ui={true}
                 />
@@ -385,6 +388,7 @@ ShallowWrapper {
                   as="img"
                   centered={true}
                   circular={true}
+                  onError={[Function]}
                   src="http://via.placeholder.com/350x150"
                   ui={true}
                 />
@@ -404,6 +408,7 @@ ShallowWrapper {
                   as="img"
                   centered={true}
                   circular={true}
+                  onError={[Function]}
                   src="http://via.placeholder.com/350x150"
                   ui={true}
                 />,
@@ -423,6 +428,7 @@ ShallowWrapper {
                   "as": "img",
                   "centered": true,
                   "circular": true,
+                  "onError": [Function],
                   "src": "http://via.placeholder.com/350x150",
                   "ui": true,
                 },
@@ -833,6 +839,7 @@ ShallowWrapper {
                   as="img"
                   centered={true}
                   circular={true}
+                  onError={[Function]}
                   src="http://via.placeholder.com/350x150"
                   ui={true}
                 />
@@ -945,6 +952,7 @@ ShallowWrapper {
                   as="img"
                   centered={true}
                   circular={true}
+                  onError={[Function]}
                   src="http://via.placeholder.com/350x150"
                   ui={true}
                 />
@@ -1056,6 +1064,7 @@ ShallowWrapper {
                     as="img"
                     centered={true}
                     circular={true}
+                    onError={[Function]}
                     src="http://via.placeholder.com/350x150"
                     ui={true}
                   />
@@ -1161,6 +1170,7 @@ ShallowWrapper {
                     as="img"
                     centered={true}
                     circular={true}
+                    onError={[Function]}
                     src="http://via.placeholder.com/350x150"
                     ui={true}
                   />
@@ -1180,6 +1190,7 @@ ShallowWrapper {
                     as="img"
                     centered={true}
                     circular={true}
+                    onError={[Function]}
                     src="http://via.placeholder.com/350x150"
                     ui={true}
                   />,
@@ -1199,6 +1210,7 @@ ShallowWrapper {
                     "as": "img",
                     "centered": true,
                     "circular": true,
+                    "onError": [Function],
                     "src": "http://via.placeholder.com/350x150",
                     "ui": true,
                   },
