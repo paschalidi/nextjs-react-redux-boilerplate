@@ -3,12 +3,11 @@
  */
 
 /* eslint strict: ["off"] */
-
 'use strict';
 const componentExists = require('../utils/componentExists');
 
 module.exports = {
-  description: 'Add component',
+  description: 'Add component / container',
   prompts: [
     {
       type: 'input',
@@ -19,6 +18,7 @@ module.exports = {
         if ((/.+/).test(value)) {
           return componentExists(value) ? 'A component or container with this name already exists' : true;
         }
+
         return 'The name is required';
       }
     }
@@ -28,12 +28,12 @@ module.exports = {
     return [{
       type: 'add',
       path: '../../components/{{properCase name}}/index.js',
-      templateFile: './component/es6.js.hbs',
+      templateFile: './stateless/es6-stateless.js.hbs',
       abortOnFail: true
     }, {
       type: 'add',
       path: '../../components/{{properCase name}}/tests/index.test.js',
-      templateFile: './component/test.js.hbs',
+      templateFile: './stateless/test.js.hbs',
       abortOnFail: true
     }];
   }

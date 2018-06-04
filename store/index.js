@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import { reducer } from './restaurant-store/reducer';
+import { reducer } from './app-store/reducer';
 
 
-const rootReducer = combineReducers({ restaurants: reducer });
+const rootReducer = combineReducers({ app: reducer });
 export default rootReducer;

@@ -1,0 +1,32 @@
+/**
+*
+* {{ name }}
+*
+*/
+import React from 'react';
+import withRedux from 'next-redux-wrapper';
+import initStore from '../store';
+import Layout from '../components/Layout/index';
+import {} from 'semantic-ui-react';
+
+
+class {{ properCase name }} extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    const {
+    //   header,
+    } = this.state;
+    return (
+      <Layout title="{{ properCase name }}">
+        {/* language=CSS */} <style jsx>{``}</style>
+        Hello from {{ name }} mobile!!
+      </Layout>
+    );
+  }
+}
+
+export default ({{ properCase name }});

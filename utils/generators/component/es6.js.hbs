@@ -3,30 +3,21 @@
 * {{ properCase name }}
 *
 */
-/* eslint-disable import/first */
-/* eslint-disable react/jsx-filename-extension */
-/* eslint-disable react/prop-types */
-
 import React from 'react';
-{{#if isContainer}}
+import PT from 'prop-types';
+import * as actions from '../../store/app-store/actions';
 import { connect } from 'react-redux';
-    {{#if wantActionsAndReducer}}
-import * as actions from '../../actions';
-    {{/if}}
-{{/if}}
+import { initStore } from '../../store/configure';
+import withRedux from 'next-redux-wrapper';
+import { } from 'semantic-ui-react';
 
-{{#if isContainer}}
-export class {{ properCase name }} extends React.Component { // eslint-disable-line react/prefer-stateless-function
-{{else}}
-class {{ properCase name }} extends React.Component { // eslint-disable-line react/prefer-stateless-function
-{{/if}}
+class {{ properCase name }} extends React.Component {
   render() {
     return (
       <div>
         {/* language=CSS */}
           <style jsx>
-            {`
-            `}
+            {` `}
           </style>
         <p>{{ properCase name }}!!</p>
       </div>
@@ -34,19 +25,14 @@ class {{ properCase name }} extends React.Component { // eslint-disable-line rea
   }
 }
 
-{{#if wantActionsAndReducer}}
-function mapStateToProps(state) {
-  //const {} = state;
-  return {};
-}
-{{/if}}
+{{ properCase name }}.defaultProps = {
+};
 
-{{#if isContainer}}
-{{#if wantActionsAndReducer}}
-export default connect(mapStateToProps, actions)({{ properCase name }});
-{{else}}
-export default connect(null, actions)({{ properCase name }});
-{{/if}}
-{{else}}
-export default {{ properCase name }};
-{{/if}}
+{{ properCase name }}.propTypes = {
+};
+
+function mapStateToProps(state) {
+//  return { ...state.reducer };
+}
+
+export default withRedux(initStore, mapStateToProps, actions)({{ properCase name }});

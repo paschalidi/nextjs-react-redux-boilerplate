@@ -10,7 +10,7 @@ class Index extends React.Component {
 
   render() {
     return (
-      <Layout title={''}>
+      <Layout title={'BCGDV-challenge'}>
         {/* language=CSS */}
         <style>{` `}</style>
 
