@@ -1,5 +1,4 @@
 ## General info
-You can find a live version of the challenge [here]()
 This project was bootstrapped with [zeit/next.js](https://github.com/zeit/next.js/).
 
 
