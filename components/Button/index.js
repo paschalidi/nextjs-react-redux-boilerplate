@@ -3,12 +3,18 @@
  * Button
  *
  */
+/* eslint-disable import/first */
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable react/prop-types */
 
 import React from 'react';
 import PT from 'prop-types';
 
 
-export const Button = ({ children, ...props }) =>
+const Button = ({
+                  children,
+                  ...props
+                }) =>
   <div className='inline' style={{ padding: '0 5px 3px 0' }}>
     <button
       onClick={() => props.onClick()}
