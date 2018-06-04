@@ -1,0 +1,48 @@
+{
+  "name": "with-redux-wrapper",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "next start",
+    "test": "NODE_ENV=test jest --watch --coverage",
+    "generate": "plop --plopfile utils/generators/index.js"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "babel-core": "6.26.3",
+    "babel-jest": "22.4.3",
+    "body-parser": "1.18.2",
+    "classnames": "2.2.5",
+    "express": "4.16.3",
+    "jsdom": "11.10.0",
+    "next": "5.1.0",
+    "next-redux-wrapper": "^1.0.0",
+    "nodemon": "1.17.4",
+    "nprogress": "0.2.0",
+    "plop": "2.0.0",
+    "prop-types": "15.6.1",
+    "ramda": "0.25.0",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.1.0",
+    "semantic-ui-react": "^0.80.0",
+    "enzyme": "3.2.0",
+    "enzyme-adapter-react-16": "1.1.1",
+    "jest": "22.0.1",
+    "react-addons-test-utils": "15.6.2",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "setupFiles": [
+      "./test-setup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "license": "ISC"
+}
